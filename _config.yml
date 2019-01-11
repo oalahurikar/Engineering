@@ -1,0 +1,58 @@
+# Site
+name: "Manufacturing in India"
+description: "Manufacturing in India Blogging"
+meta_description: "Jekyll template, Medium styled, free for bloggers."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: /mediumish-theme-jekyll
+google_analytics: 'UA-46278016-1'
+disqus: 'demowebsite'
+mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
+
+# Authors
+authors:
+  Abhay:
+    name: Abhay
+    display_name: Abhay
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: adlahurikar@gmail.com
+    web: https://merudynamics.in
+    twitter: https://twitter.com/AbhayLahurikar
+    description: "Author of Manufacturing, a Bootstrap Medium styled template available for Manufacturing process, Machines and Tools."
+  john:
+    name: John
+    display_name: John
+    gravatar: b1cc14991db7a456fcd761680bbc8f81
+    email: wowthemesnet@gmail.com
+    web: https://www.wowthemes.net
+    twitter: https://twitter.com/wowthemesnet
+    description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+    
+# Pagination
+paginate: 6
+paginate_path: /page:num/
+
+# Other
+markdown: kramdown
+highlighter: rouge
